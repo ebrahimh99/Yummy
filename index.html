@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" /> <!-- font awesome -->
+
+  <link rel="stylesheet" href="./css/bootstrap.min.css"><!-- bootstrap -->
+
+
+  <link rel="stylesheet" href="./css/index.-style.css">
+
+  <title>Yummy</title>
+</head>
+
+<body>
+
+  <div
+    class="loading bg-dark text-white  position-absolute start-0 end-0 top-0 bottom-0  justify-content-center align-items-center">
+    <i class="fa-solid fa-spinner fa-spin fa-7x"></i>
+  </div>
+  <!-- ------------------------------ start navbar------------------------------------------ -->
+  <nav class=" position-fixed bg-dark vh-100 d-flex flex-column justify-content-between ">
+    <div class="inner collapse navbar-collapse d-flex align-items-start my-5 " id="navbarSupportedContent">
+      <ul class="navbar-nav ps-3">
+        <li class="py-4 nav-item position-relative">
+          <a class="nav-link text-decoration-none" id="Search" href="#">Search</a>
+        </li>
+        <li class="py-4 nav-item position-relative">
+          <a class="nav-link text-decoration-none" id="Categories" href="#">Categories</a>
+        </li>
+
+        <li class="py-4 nav-item position-relative">
+          <a class="nav-link text-decoration-none" id="Area" href="#">Area</a>
+        </li>
+        <li class="py-4 nav-item position-relative">
+          <a class="nav-link text-decoration-none" id="Ingredients" href="#">Ingredients</a>
+        </li>
+        <li class="py-4 nav-item position-relative">
+          <a class="nav-link text-decoration-none" id="Contact" href="#">Contact&nbsp;&nbsp;Us</a>
+        </li>
+      </ul>
+    </div>
+    <div class="nav-footer ps-3">
+      <div class="icons py-3">
+        <i class="fa-brands fa-facebook pe-2"></i>
+        <i class="fa-brands fa-twitter px-2"></i>
+        <i class="fa-solid fa-globe px-2"></i>
+      </div>
+      <div class="footer">
+        <p>Copyright Â© 2019 All Rights <br>Reserved.</p>
+      </div>
+    </div>
+    <div
+      class="bars bg-white position-absolute start-100 top-0 bottom-0 p-2 py-4 d-flex flex-column align-items-center justify-content-between">
+      <div class="navImg">
+        <img src="./images/logo.png" class="w-100" alt="">
+
+      </div>
+
+      <i id="open-close" class="fa-solid fa-bars"></i>
+
+
+      <div class="icons  d-flex flex-column align-items-center justify-content-between gap-3">
+        <i class="fa-solid fa-globe"></i>
+        <i class="fa-solid fa-share-nodes"></i>
+      </div>
+    </div>
+  </nav>
+  <!-- ------------------------------ end navbar------------------------------------------ -->
+
+  <section id="home" class="py-5">
+
+    <div class="inner-loading-screen bg-dark text-white  position-absolute start-0 end-0 top-0 bottom-0">
+      <i class="fa-solid fa-spinner fa-spin fa-7x  position-absolute top-50 start-50 translate-middle "></i>
+    </div>
+
+    <div class="container  pb-5">
+      <div class="row" id="row-search">
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row g-4" id="row-cards">
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ------------------------------ links ------------------------------------------ -->
+
+  <script src="./js/bootstrap.bundle.min.js"></script> <!-- bootstrap -->
+
+  <script src="./js/jquery-3.7.1.min.js"></script><!-- jquery -->
+
+  <script src="./js/main.js"></script>
+
+
+</body>
+
+</html>

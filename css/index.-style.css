@@ -1,0 +1,120 @@
+.loading {
+    z-index: 999999;
+    display: flex;
+}
+
+input::placeholder{
+    color: #ffffff !important;
+    opacity: 0.4 !important;
+}
+
+
+
+#nameInput::placeholder,
+#emailInput::placeholder,
+#phoneInput::placeholder,
+#ageInput::placeholder,
+#passwordInput::placeholder,
+#repasswordInput::placeholder{
+    color: #000000 !important;
+    opacity: 0.6 !important;
+}
+
+body {
+    overflow: hidden;
+
+    background-color: #0D0D0D;
+
+    color: white;
+}
+
+i {
+    cursor: pointer;
+}
+
+.inner-loading-screen{
+    z-index: 999999;
+
+    display: none;
+
+
+}
+
+.inner-loading-screen i {
+    transform: translate(-50%, -50%);
+}
+
+/* -------------------------- navbar ------------------------------------------ */
+
+nav {
+    left: -25%;
+    top: 0;
+    width: 25%;
+    z-index: 99999999;
+}
+
+nav .inner ul li a.nav-link {
+    color: white;
+}
+
+
+
+.bars {
+    color: rgb(0, 0, 0);
+
+}
+
+.navImg {
+    width: 40px;
+}
+
+
+nav .fa-bars {
+    font-size: xx-large;
+}
+
+
+nav .inner ul li a {
+    position: absolute;
+    left: 0;
+    top: 150px;
+
+}
+
+
+
+/* -------------------------- sec-1 ------------------------------------------ */
+
+
+.box {
+    position: relative;
+    overflow: hidden;
+}
+
+.hid-box {
+    top: 100%;
+    left: 0;
+    right: 0;
+    position: absolute;
+    transition: all .3s ease-out;
+    background: rgba(255, 255, 255, 0.7);
+    height: 100%;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+}
+
+.box:hover .hid-box {
+    top: 0;
+}
+
+
+.row .box {
+    cursor: pointer;
+}
+
+h3.special{
+    cursor: pointer !important;
+
+}
